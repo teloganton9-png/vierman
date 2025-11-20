@@ -1,0 +1,28 @@
+proxies:
+  - name: pojoksandang-IKD
+    server: api24-normal-alisg.tiktokv.com
+    port: 443
+    type: trojan
+    password: cff5e81d-5c38-40ff-ad87-8698e8879402
+    skip-cert-verify: true
+    sni: ikd.sahinaz.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: ikd.sahinaz.biz.id
+    udp: true
+
+  - name: pojoksandang-WH
+    server: api24-normal-alisg.tiktokv.com
+    port: 443
+    type: trojan
+    password: 857c07b7-29ed-47d0-9295-c312d56c29c8
+    skip-cert-verify: true
+    sni: wh.sahinaz.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: wh.sahinaz.biz.id
+    udp: true
