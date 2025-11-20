@@ -1,0 +1,17 @@
+proxies:
+  - name: paktani
+    server: api24-normal-alisg.tiktokv.com
+    port: 443
+    type: vmess
+    uuid: f25dcc09-67c9-4598-8841-162865958ff5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1.turbossh.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id1.turbossh.my.id
+    udp: true
