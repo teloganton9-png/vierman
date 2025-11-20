@@ -1,5 +1,5 @@
 proxies:
-  - name: pojoksandang-IKD
+  - name: paktani-IKD
     server: api24-normal-alisg.tiktokv.com
     port: 443
     type: trojan
@@ -13,7 +13,7 @@ proxies:
         Host: ikd.sahinaz.biz.id
     udp: true
 
-  - name: pojoksandang-WH
+  - name: petani-WH
     server: api24-normal-alisg.tiktokv.com
     port: 443
     type: trojan
@@ -25,4 +25,5 @@ proxies:
       path: /trojan
       headers:
         Host: wh.sahinaz.biz.id
+
     udp: true
